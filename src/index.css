@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.containerNavBar{
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffed9b;
+  padding: 5px 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 6vw;
+  z-index: 10;
+}
+
+.logoMenu {
+  width: 10vw;
+  margin-top: 13%;
+}
+
+.containerLogo {
+  width: 100%;
+  height: 6vw;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.containerBtnNavBar {
+  width: 30%;
+}
+
+.btnNavBar {
+  font-size: 1.5vw!important;
+  color: #242e5b!important;
+  text-transform: capitalize!important;
+  padding: 2px!important;
+  font-weight: bold!important;
+  letter-spacing: 0.3px!important;
+  margin-top: 6%!important;
+  width: 50%;
+}
+.btnNavBar:hover {
+  color: white!important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover{
+  background-color: #b2b7cf!important;
+}
+
+.linkNavBar {
+  text-decoration: none;
+}
+
+.containerListTransactions{
+  width: 80vw;
+  margin: 10% auto;
+  display: block;
+  background-color: #ffed9b;
+  border-radius: 9px;
+  border: solid 2px #242e5b;
+  padding: 1px;
+  z-index: 1;
+}
+
+.labelListTransactions{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.labelTransactions{
+  font-weight: bold;
+  background-color: #b2b7cf;
+  width: 100%;
+  text-align: center;
+  border: 0.5px solid #242e5b;
+  padding: 1% 0;
+  font-size: 1vw;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.labelTransactionsAlt {
+  border-top: 0.5px solid #242e5b;
+  border-right: 0.5px solid #242e5b;
+  border-bottom: 0.5px solid #242e5b;
+  font-weight: bold;
+  background-color: #b2b7cf;
+  width: 100%;
+  text-align: center;
+  padding: 1% 0;
+  font-size: 1vw;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.listTransactions{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.transactions{
+  background: white;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  border: 0.5px solid #b2b7cf;
+  padding: 1% 0;
+  font-size: 1vw;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.transactionsAlt{
+  border-top: 0.5px solid #b2b7cf;
+  border-right: 0.5px solid #b2b7cf;
+  border-bottom: 0.5px solid #b2b7cf;
+  background: white;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding: 1% 0;
+  font-size: 1vw;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.btnAddTransaction{
+  position: absolute!important;
+  top: 1px;
+  right: -3.2%;
+  font-size: 1vw!important;
+  padding: 0.5em!important;
+  width: fit-content!important;
+  min-width: 0!important;
+  text-transform: initial!important;
+  background-color: #5cc965!important;
+}
+
+.btnDeleteTransaction{
+  position: absolute!important;
+  top: 1px;
+  right: -3.2%;
+  font-size: 1vw!important;
+  padding: 0.5em!important;
+  width: fit-content!important;
+  min-width: 0!important;
+  text-transform: initial!important;
+  background-color: #ec6b69!important;
+}
+
+.labelId, .labelDate, .labelAmount, .labeltype, .labelMode, .labelCommentaire{
+  cursor: pointer;
+}
+
+.containerModalAdd {
+  display: flex;
+  justify-content: space-around;
+  width: 50vw!important;
+}
+
+.containerCumul {
+  margin-top: 10%;
+}
+
+.containerCumulLabel{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cumulLabel {
+  border: solid 1px black;
+  width: 100%;
+  text-align: center;
+  padding: 1% 0;
+  background-color: #ffed9b;
+  margin: 0;
+}
+
+.containerCumulTotal{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cumul {
+  border: solid 1px black;
+  width: 100%;
+  text-align: center;
+  padding: 1% 0;
+  margin: 0;
+}
